@@ -1,38 +1,123 @@
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mem-generator {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mem-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.file-input {
+  display: none;
+}
+
+.controls-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-image {
+  background-color: #007bff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-reset {
+  background-color: #6c757d;
+}
+
+.btn-create {
+  background-color: #28a745;
+}
+
+.btn-download {
+  background-color: #17a2b8;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
+
+.text-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.preview-title {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.file-info {
+  margin-top: 10px;
+  color: #666;
+}
+
+.result-title {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.result-image {
+  max-width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.result-container {
+  text-align: center;
+}
+
+.preview-container {
+  text-align: center;
 }
