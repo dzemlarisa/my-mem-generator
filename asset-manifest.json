@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-mem-generator/static/css/main.c60aa514.css",
+    "main.js": "/my-mem-generator/static/js/main.773cf07e.js",
+    "static/js/453.51b31028.chunk.js": "/my-mem-generator/static/js/453.51b31028.chunk.js",
+    "index.html": "/my-mem-generator/index.html",
+    "main.c60aa514.css.map": "/my-mem-generator/static/css/main.c60aa514.css.map",
+    "main.773cf07e.js.map": "/my-mem-generator/static/js/main.773cf07e.js.map",
+    "453.51b31028.chunk.js.map": "/my-mem-generator/static/js/453.51b31028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c60aa514.css",
+    "static/js/main.773cf07e.js"
+  ]
+}
